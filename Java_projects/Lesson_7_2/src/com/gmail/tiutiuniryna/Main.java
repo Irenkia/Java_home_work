@@ -12,6 +12,7 @@ public class Main {
 		System.out.println("Enter Widht");
 		int widht = sc.nextInt();
 		printRectangle(height, widht);
+		sc.close();
 	}
 
 	public static void printRectangle(int height, int widht) {
