@@ -9,7 +9,7 @@ public class Main {
 		Random rn = new Random();
 		int[] arr = new int[15];
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = rn.nextInt(1, 20);
+			arr[i] = rn.nextInt(-20, 20);
 		}
 		System.out.println("Our array");
 		System.out.println(Arrays.toString(arr));
@@ -21,7 +21,7 @@ public class Main {
 	}
 
 	public static int findMaxNumber(int[] arr) {
-		int max = 0;
+		int max = -1;
 		for (int i = 0; i < arr.length; i++) {
 			if (max < arr[i]) {
 				max = arr[i];
