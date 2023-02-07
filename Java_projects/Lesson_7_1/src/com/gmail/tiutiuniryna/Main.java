@@ -21,7 +21,7 @@ public class Main {
 	}
 
 	public static int findMaxNumber(int[] arr) {
-		int max = -21;
+		int max = arr[0];
 		for (int i = 0; i < arr.length; i++) {
 			if (max < arr[i]) {
 				max = arr[i];
